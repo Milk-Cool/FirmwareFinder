@@ -1,0 +1,31 @@
+{
+  "name": "firmwarefinder",
+  "version": "0.1.0",
+  "description": "This tool helps you to find all the firmwares for your Android phone",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEV=1 node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Milk-Cool/FirmwareFinder.git"
+  },
+  "keywords": [
+    "firmware",
+    "finder",
+    "android",
+    "custom",
+    "rom"
+  ],
+  "author": "Milk_Cool",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Milk-Cool/FirmwareFinder/issues"
+  },
+  "homepage": "https://github.com/Milk-Cool/FirmwareFinder#readme",
+  "dependencies": {
+    "express": "^4.18.3",
+    "jsdom": "^24.0.0"
+  }
+}
